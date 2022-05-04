@@ -1,0 +1,15 @@
+GET http://localhost:8087/enum/add?genderEnum=1
+
+###
+
+POST http://localhost:8087/enum/add
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id":1,
+  "genderEnum":0
+}
+
+###
